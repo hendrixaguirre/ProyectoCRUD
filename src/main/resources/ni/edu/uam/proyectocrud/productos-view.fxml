@@ -94,7 +94,7 @@
       <ComboBox fx:id="cmbOrdenar" layoutX="421.0" layoutY="430.0" prefHeight="25.0" prefWidth="193.0" promptText="Seleccione orden" />
       <HBox layoutX="37.0" layoutY="459.0" prefHeight="37.0" prefWidth="200.0" spacing="10.0">
          <children>
-            <Button fx:id="btnBuscar" mnemonicParsing="false" onAction="#buscarRegistro" text="Buscar" />
+            <Button fx:id="btnBuscar" mnemonicParsing="false" onAction="#buscarProducto" text="Buscar" />
             <Button mnemonicParsing="false" onAction="#limpiarFiltro" text="Limpiar filtro" />
          </children>
       </HBox>
